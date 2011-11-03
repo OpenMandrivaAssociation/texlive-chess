@@ -1,3 +1,9 @@
+# revision 20582
+# category Package
+# catalog-ctan /fonts/chess/chess
+# catalog-date 2006-12-31 18:14:50 +0100
+# catalog-license pd
+# catalog-version 1.2
 Name:		texlive-chess
 Version:	1.2
 Release:	1
@@ -70,6 +76,7 @@ support), or chessfss (for flexible font choices).
 %doc %{_texmfdistdir}/doc/fonts/chess/tal.tex
 %doc %{_texmfdistdir}/doc/fonts/chess/tugboat.ltx
 %doc %{_texmfdistdir}/doc/fonts/chess/tuggame.ltx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -80,3 +87,5 @@ support), or chessfss (for flexible font choices).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
