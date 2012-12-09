@@ -77,3 +77,18 @@ support), or chessfss (for flexible font choices).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2-2
++ Revision: 750151
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.2-1
++ Revision: 718048
+- texlive-chess
+- texlive-chess
+- texlive-chess
+- texlive-chess
+- texlive-chess
+
