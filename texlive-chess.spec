@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-chess
 Version:	1.2
-Release:	3
+Release:	4
 Summary:	Fonts for typesetting chess boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/chess
