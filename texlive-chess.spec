@@ -1,6 +1,6 @@
 Name:		texlive-chess
 Version:	20582
-Release:	1
+Release:	2
 Summary:	Fonts for typesetting chess boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/chess
