@@ -3,7 +3,7 @@ Version:	20582
 Release:	2
 Summary:	Fonts for typesetting chess boards
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/chess/chess
+URL:		https://www.ctan.org/tex-archive/fonts/chess/chess
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chess.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chess.doc.r%{version}.tar.xz
